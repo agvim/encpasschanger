@@ -9,5 +9,9 @@ This application uses standard VDC calls to validate and set new password. I hav
 my own device (Samsung Galaxy Nexus). However, please backup you data before using this app!
 If you forget your password, you will NEVER recover your data!
 
+Additionally it supports setting a maximum number of screen unlock attempts before rebooting,
+so you can get a better compromise between encryption security and screen lock protection.
+To disable the rebooting functionality leave the attempts field empty or set it to 0. 
+
 This application may also work on Android 3, however I'm not able to test this,
 so I have set minimum API level to 15 (Android 4.0.3).

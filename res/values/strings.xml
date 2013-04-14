@@ -23,4 +23,8 @@
     <string name="newpass_not_the_same">Please, enter EXACT passwords in "New Password" fields!</string>
     <string name="copyright">© Kibab 2012 | http://kibab.com</string>
     <string name="debuglabel">Debug output</string>
+    
+    <string name="max_attempts">Maximum unlock attempts before reboot:</string>
+    <string name="rec_name">Rebooter</string>
+    <string name="rec_description">Allows administration for rebooting</string>
 </resources>

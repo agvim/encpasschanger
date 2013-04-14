@@ -32,7 +32,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pass_once_again" />
 
@@ -68,6 +68,27 @@
             android:text="@string/debuglabel" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/max_attempts" />
+
+    <EditText
+        android:id="@+id/allowed_fails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="beginRebooter"
+        android:text="@string/go_button" />
 
     <EditText
         android:id="@+id/output"
